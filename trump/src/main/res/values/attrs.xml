@@ -1,8 +1,8 @@
 <resources>
     <declare-styleable name="TrumpyRecycler">
-        <attr name="rTopFadingEdgeStrength" format="float"/>
-        <attr name="rBottomFadingEdgeStrength" format="float"/>
-        <attr name="rLeftFadingEdgeStrength" format="float"/>
-        <attr name="rRightFadingEdgeStrength" format="float"/>
+        <attr name="TopFadingEdgeStrength" format="float"/>
+        <attr name="BottomFadingEdgeStrength" format="float"/>
+        <attr name="LeftFadingEdgeStrength" format="float"/>
+        <attr name="RightFadingEdgeStrength" format="float"/>
     </declare-styleable>
 </resources>

@@ -56,10 +56,10 @@ public  class TrumpyRecycler extends RecyclerView {
     }
     protected void in(Context context, AttributeSet attrs){
         TypedArray All_attrs =context.getTheme().obtainStyledAttributes(attrs, R.styleable.TrumpyRecycler, 0, 0);
-        try{ TopFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_rTopFadingEdgeStrength,0);
-            BottomFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_rBottomFadingEdgeStrength,0);
-            LeftFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_rLeftFadingEdgeStrength,0);
-            RightFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_rRightFadingEdgeStrength,0);
+        try{ TopFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_TopFadingEdgeStrength,0);
+             BottomFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_BottomFadingEdgeStrength,0);
+             LeftFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_LeftFadingEdgeStrength,0);
+             RightFadingEdgeStrength=All_attrs.getFloat(R.styleable.TrumpyRecycler_RightFadingEdgeStrength,0);
         }finally{All_attrs.recycle();}
     }
 
