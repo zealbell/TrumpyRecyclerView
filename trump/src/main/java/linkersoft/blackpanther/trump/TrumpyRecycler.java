@@ -118,7 +118,7 @@ public  class TrumpyRecycler extends RecyclerView {
     public int getLastCompletelyVisibleItemPosition(){
         return (LLM!=null)?LLM.findLastCompletelyVisibleItemPosition():-1;
     }
-    View getView(int position){
+    public View getView(int position){
         return (LLM!=null)?LLM.findViewByPosition(position):null;
     }
 
