@@ -89,8 +89,8 @@ public  class TrumpyRecycler extends RecyclerView {
     public void setChatMode(){
         LLM.setStackFromEnd(true);
     }
-    public void scrollToBottom(Adapter dappy){
-        scrollToPosition(dappy.getItemCount()-1);
+    public void scrollToBottom(){
+        if(adapter!=null)scrollToPosition(adapter.getItemCount()-1);
     }
     public void NotifyDataSetChanged(){
         if(adapter==null)return;
@@ -120,6 +120,11 @@ public  class TrumpyRecycler extends RecyclerView {
     }
     public View getView(int position){
         return (LLM!=null)?LLM.findViewByPosition(position):null;
+    }
+
+    @Override
+    public String toString() {
+        return "@LiNKeR(>_<)~"+super.toString();
     }
 
     public static class TrumpyLinearLayoutManager extends LinearLayoutManager {
@@ -155,7 +160,11 @@ public  class TrumpyRecycler extends RecyclerView {
             super.onMeasure(recycler, state, widthSpec, heightSpec);
         }
 
-    }
+        @Override
+        public String toString() {
+            return "@LiNKeR(>_<)~"+super.toString();
+        }
 
+    }
 }
 
