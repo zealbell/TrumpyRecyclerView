@@ -33,7 +33,7 @@ A simpler and easy to use RecyclerView with more control +the function of recycl
 
 ```xml
    dependencies {
-       implementation 'com.github.54LiNKeR:TrumpyRecyclerView:1.trump.1'
+       implementation 'com.github.54LiNKeR:TrumpyRecyclerView:1.trump.2'
    }
 ```
 
